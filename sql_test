@@ -1,0 +1,17 @@
+# Test SQL script to create a database object
+
+CREATE TABLE atp_players (
+empno INT PRIMARY KEY,
+ename VARCHAR(15),
+ranking INT)
+
+begin
+insert into atp_players values
+    (1,'FEDERER',2)
+insert into atp_players values
+    (2,'ZVEREV',5)
+insert into atp_players values
+    (3,'POUILLE',23)
+insert into atp_players values
+    (4,'NADAL',1)
+end
